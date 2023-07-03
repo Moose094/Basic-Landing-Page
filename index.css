@@ -1,0 +1,209 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    font-family: "Roboto", sans-serif;
+    background-color: limegreen;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 7%;
+    background-color: green;
+    color:#fff;
+
+}
+.footer {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 7%;
+    background-color: green;
+}
+
+.section1,
+.section2,
+.section3,
+.section4 {
+    width: 100%;
+    min-height: 22.5%;
+}
+
+.section1 {
+    padding-top: 3%;
+    width: 80%;
+    padding-right: 15%;
+    padding-left: 15%;
+    padding-bottom: 3%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: limegreen;
+    color: white;
+    box-shadow: 3px 6px 30px 0 green, 0 4px 15px 0px #ccc, 0 5px 5px 0px #fff;
+}
+
+.navLogo {
+    font-weight: 700;
+    padding-left: 50px;
+    font-size: x-large;
+}
+
+.links {
+    font-size: small;
+    margin-left: auto;
+    padding-right: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    
+}
+
+.navLink {
+    margin-right: 30px;
+}
+
+.link {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+
+
+.firstText {
+    width: 300px;
+    height: 255px;
+}
+
+.firstImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    width: 255px;
+    height: 255px;
+    margin-right: 35%;
+}
+
+.first-img {
+    width: 250px;
+    height: 250px;
+    border-radius: 8px;
+}
+
+.first-h1 {
+    font-weight: 700;
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+.second-h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.secondImg-container {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    border-radius: 10px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.secondImg-container:hover {
+    width: 250px;
+    height: 250px;
+}
+
+.description {
+    font-size: 15px;
+    margin-top: 5px;
+    width: 170px;
+}
+
+.section2{
+    background-color: limegreen;
+}
+
+.s2CardImg {
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    border: 3px solid white;
+    transition: 0.5s;
+}
+
+.s2CardImg:hover {
+    width: 250px;
+    height: 250px;
+    border: 3px solid rgb(0, 0, 0);
+}
+
+.cards {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+.section3 {
+    margin-top: 70px;
+    background-color: limegreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.s3-header3 {
+    max-width: 70%;
+    font-size: 20px;
+    font-weight: lighter;
+    font-style: italic;
+    
+}
+
+.s3-header4 {
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: 20%;
+    font-weight: bold;
+}
+
+.moreBoxes {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+.bottomImages {
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+    border: 3px solid white;
+    transition: 0.5s;
+}
+
+.fourth-h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+.footer {
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    font-size: large;
+}
